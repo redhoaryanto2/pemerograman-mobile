@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/white"
+            android:elevation="5dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:id="@+id/ivTukang"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_tukang"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tukang"
+                    android:textColor="@color/blacksemu"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:id="@+id/ivArtsitektur"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/ic_artsitektur"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blacksemu"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Arsitektur"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:id="@+id/ivDesainInterior"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_interior"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blacksemu"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Desain Interior"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:id="@+id/ivInterior"
+                    android:layout_width="70dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_furnitur"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="center_horizontal"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blacksemu"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Arsitektur"
+                    android:layout_gravity="center_horizontal"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+</LinearLayout>
